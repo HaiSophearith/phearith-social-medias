@@ -5,10 +5,10 @@ button {
   text-align: center;
   vertical-align: middle;
   font-size: 13pt;
-  width: 200px;
+  width: 120px;
   font-weight: 700;
-  line-height: 20px;
-  padding: 14px 12px 12px 12px;
+  line-height: 0px;
+  padding: 12px 12px 12px 12px;
   letter-spacing: 0.2px;
   white-space: normal;
   margin-right: 10px;
@@ -32,21 +32,28 @@ button {
   font-size: 30px;
   /* font-style: italic; */
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient( red , blue);
+  background: linear-gradient(red, blue);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  margin: 10px 0px 10px 0px;
 }
 .gradient2-text {
   font-size: 20px;
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient( blue , red);
+  background: linear-gradient(blue, red);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  /* &:hover {
-    text-decoration: underline;
-    text-decoration-color: red; 
-  } */
+  margin: 4px 0px 8px 0px;
+}
+.gradient3-text {
+  font-size: 20px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(blue, red);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
 }
 
 button:hover,
