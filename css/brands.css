@@ -4,7 +4,7 @@ button {
   text-decoration: none; /* Corrected the property value from darkgoldenrod to none */
   text-align: center;
   vertical-align: middle;
-  font-size: 18px;
+  font-size: 13pt;
   width: 200px;
   font-weight: 700;
   line-height: 20px;
@@ -13,7 +13,7 @@ button {
   white-space: normal;
   margin-right: 10px;
   outline: none;
-  border-radius: 10px;
+  border-radius: 15px;
   cursor: pointer;
   margin-bottom: 12px; /* Added margin-bottom to create spacing between rows */
 
@@ -29,40 +29,24 @@ button {
   }
 }
 .gradient-text {
-  /* Fallback: Set a background color. */
-  background-color: rgb(234, 255, 0);
-
-  /* Create the gradient. */
-  background-image: linear-gradient(45deg, #103839, #af426146);
-
-  /* Set the background size and repeat properties. */
-  background-size: 100%;
-  background-repeat: repeat;
-
-  /* Use the text as a mask for the background. */
-  /* This will show the gradient as a text color rather than element bg. */
-  -webkit-background-clip: text;
+  font-size: 30px;
+  /* font-style: italic; */
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient( red , blue);
   -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .gradient2-text {
-  /* Fallback: Set a background color. */
-  background-color: rgb(17, 255, 0);
-
-  /* Create the gradient. */
-  background-image: linear-gradient(45deg, #103839, #af426146);
-
-  /* Set the background size and repeat properties. */
-  background-size: 100%;
-  background-repeat: repeat;
-
-  /* Use the text as a mask for the background. */
-  /* This will show the gradient as a text color rather than element bg. */
-  -webkit-background-clip: text;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient( blue , red);
   -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  /* &:hover {
+    text-decoration: underline;
+    text-decoration-color: red; 
+  } */
 }
 
 button:hover,
