@@ -1,5 +1,5 @@
-body{
-  background-color: rgb(8,97,139);
+body {
+  background-color: rgba(250, 247, 247, 0.778);
 }
 .button,
 button {
@@ -56,7 +56,6 @@ button {
   background: linear-gradient(blue, red);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-
 }
 
 button:hover,
