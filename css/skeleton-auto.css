@@ -223,7 +223,7 @@ hr {
   object-fit: cover;
   background-position: center;
   border-radius: 50%;
-  border: 3px solid rgba(0, 0, 255, 0.437);
+  border: 4px solid rgba(0, 0, 255, 0.525);
 }
 
 /* open-sans-regular - vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic */
