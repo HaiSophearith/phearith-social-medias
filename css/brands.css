@@ -39,6 +39,7 @@ button {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   margin: 10px 0px 10px 0px;
+  text-shadow: rgba(255, 204, 0, 0.566) 1px 0 10px;
 }
 .gradient2-text {
   font-size: 20px;
