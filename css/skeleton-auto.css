@@ -226,7 +226,7 @@ hr {
   border: 4px solid transparent; 
   box-shadow: 0 0 0 1px blueviolet, /* First color layer */ 0 0 0 2px red,
     /* Second color layer, slightly wider */ 0 0 0 3px yellow,
-    /* Third color layer, even wider */ 0 0 0 4px green,
+    /* Third color layer, even wider */ 0 0 0 4px rgb(14, 170, 218),
     /* Fourth color layer, even wider */ 0 0 0 5px black; /* Fifth and outermost color layer */
 }
 
